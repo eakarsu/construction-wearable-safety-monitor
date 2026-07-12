@@ -1,0 +1,31 @@
+{
+  "id": "construction-wearable-safety-monitor",
+  "title": "Construction Wearable Safety Monitor App",
+  "industry": "Government & Public Sector",
+  "industryId": "government-public-sector",
+  "specialization": "Construction Wearable Safety Monitor",
+  "sourcePlatformGroup": "emergency-safety-platform",
+  "sources": [
+    "AIBuildingSafetyInspector",
+    "AIConstructionSafetyHub",
+    "AIConstructionWearableSafetyMonitor",
+    "AIFactoryFloorSafetyMonitor",
+    "AIPersonalSafetyLoneWorkerMonitor"
+  ],
+  "featureCount": 365,
+  "candidateFeatureCount": 488,
+  "eliminatedSimilarFeatures": 123,
+  "evidenceCount": 999,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 0,
+    "seededTables": 0,
+    "seededRows": 0
+  },
+  "visibleFeatureCount": 249,
+  "featureVisibilityMode": "source-backed-fallback"
+}
