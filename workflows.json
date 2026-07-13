@@ -1,0 +1,754 @@
+{
+  "version": 1,
+  "appId": "construction-wearable-safety-monitor",
+  "workflows": [
+    {
+      "id": "worker-device-enrollment",
+      "title": "Worker and Device Enrollment",
+      "description": "Enroll consented workers and wearable devices with role, training, privacy, and assignment controls.",
+      "fields": [
+        {
+          "key": "workerReference",
+          "label": "Worker reference",
+          "type": "text",
+          "required": true,
+          "default": "WORKER-DEMO-81"
+        },
+        {
+          "key": "role",
+          "label": "Role",
+          "type": "text",
+          "required": true,
+          "default": "Ironworker"
+        },
+        {
+          "key": "deviceId",
+          "label": "Device identifier",
+          "type": "text",
+          "required": true,
+          "default": "WEAR-DEMO-0081"
+        },
+        {
+          "key": "trainingStatus",
+          "label": "Training status",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Not started",
+            "Scheduled",
+            "Completed"
+          ],
+          "default": "Scheduled"
+        },
+        {
+          "key": "consentStatus",
+          "label": "Consent status",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Needs verification",
+            "Confirmed for demo",
+            "Declined"
+          ],
+          "default": "Confirmed for demo"
+        }
+      ],
+      "states": [
+        "draft",
+        "consent_review",
+        "assigned",
+        "inactive"
+      ],
+      "transitions": [
+        {
+          "id": "worker-device-enrollment-consent_review",
+          "label": "Move to consent review",
+          "from": [
+            "draft"
+          ],
+          "to": "consent_review"
+        },
+        {
+          "id": "worker-device-enrollment-assigned",
+          "label": "Move to assigned",
+          "from": [
+            "consent_review"
+          ],
+          "to": "assigned"
+        },
+        {
+          "id": "worker-device-enrollment-inactive",
+          "label": "Move to inactive",
+          "from": [
+            "assigned"
+          ],
+          "to": "inactive"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "worker-device-enrollment-demo",
+          "state": "draft",
+          "workerReference": "WORKER-DEMO-81",
+          "role": "Ironworker",
+          "deviceId": "WEAR-DEMO-0081",
+          "trainingStatus": "Scheduled",
+          "consentStatus": "Confirmed for demo"
+        }
+      ]
+    },
+    {
+      "id": "wearable-telemetry-intake",
+      "title": "Wearable Telemetry Intake",
+      "description": "Stage device readings, evaluate provenance and quality, and accept trustworthy local or sandbox telemetry.",
+      "fields": [
+        {
+          "key": "deviceId",
+          "label": "Device identifier",
+          "type": "text",
+          "required": true,
+          "default": "WEAR-DEMO-0081"
+        },
+        {
+          "key": "adapter",
+          "label": "Provider or adapter",
+          "type": "text",
+          "required": true,
+          "default": "Local wearable fixture"
+        },
+        {
+          "key": "signalTypes",
+          "label": "Signal types",
+          "type": "textarea",
+          "required": true,
+          "default": "heart rate; skin temperature; motion; location zone"
+        },
+        {
+          "key": "recordCount",
+          "label": "Record count",
+          "type": "number",
+          "required": true,
+          "default": 720
+        },
+        {
+          "key": "qualityScore",
+          "label": "Quality score",
+          "type": "number",
+          "required": true,
+          "default": 95
+        }
+      ],
+      "states": [
+        "received",
+        "quality_review",
+        "accepted",
+        "rejected"
+      ],
+      "transitions": [
+        {
+          "id": "wearable-telemetry-intake-quality_review",
+          "label": "Move to quality review",
+          "from": [
+            "received"
+          ],
+          "to": "quality_review"
+        },
+        {
+          "id": "wearable-telemetry-intake-accepted",
+          "label": "Move to accepted",
+          "from": [
+            "quality_review"
+          ],
+          "to": "accepted"
+        },
+        {
+          "id": "wearable-telemetry-intake-rejected",
+          "label": "Move to rejected",
+          "from": [
+            "accepted"
+          ],
+          "to": "rejected"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "wearable-telemetry-intake-demo",
+          "state": "received",
+          "deviceId": "WEAR-DEMO-0081",
+          "adapter": "Local wearable fixture",
+          "signalTypes": "heart rate; skin temperature; motion; location zone",
+          "recordCount": 720,
+          "qualityScore": 95
+        }
+      ]
+    },
+    {
+      "id": "fatigue-heat-stress-analysis",
+      "title": "Fatigue and Heat-Stress Analysis",
+      "description": "Analyze environmental and physiological signals, document uncertainty, and route concerning conditions for supervisor review.",
+      "fields": [
+        {
+          "key": "workerReference",
+          "label": "Worker reference",
+          "type": "text",
+          "required": true,
+          "default": "WORKER-DEMO-81"
+        },
+        {
+          "key": "heatIndex",
+          "label": "Heat index",
+          "type": "number",
+          "required": true,
+          "default": 103
+        },
+        {
+          "key": "workRestCycle",
+          "label": "Work/rest cycle",
+          "type": "text",
+          "required": true,
+          "default": "45 minutes work / 15 minutes rest"
+        },
+        {
+          "key": "riskLevel",
+          "label": "Risk level",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ],
+          "default": "High"
+        },
+        {
+          "key": "evidence",
+          "label": "Evidence",
+          "type": "textarea",
+          "required": true,
+          "default": "Rising skin temperature and sustained exertion during high heat index."
+        }
+      ],
+      "states": [
+        "monitoring",
+        "alerted",
+        "supervisor_review",
+        "resolved"
+      ],
+      "transitions": [
+        {
+          "id": "fatigue-heat-stress-analysis-alerted",
+          "label": "Move to alerted",
+          "from": [
+            "monitoring"
+          ],
+          "to": "alerted"
+        },
+        {
+          "id": "fatigue-heat-stress-analysis-supervisor_review",
+          "label": "Move to supervisor review",
+          "from": [
+            "alerted"
+          ],
+          "to": "supervisor_review"
+        },
+        {
+          "id": "fatigue-heat-stress-analysis-resolved",
+          "label": "Move to resolved",
+          "from": [
+            "supervisor_review"
+          ],
+          "to": "resolved"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "fatigue-heat-stress-analysis-demo",
+          "state": "monitoring",
+          "workerReference": "WORKER-DEMO-81",
+          "heatIndex": 103,
+          "workRestCycle": "45 minutes work / 15 minutes rest",
+          "riskLevel": "High",
+          "evidence": "Rising skin temperature and sustained exertion during high heat index."
+        }
+      ]
+    },
+    {
+      "id": "proximity-fall-event-triage",
+      "title": "Proximity and Fall Event Triage",
+      "description": "Triage fall, struck-by, and restricted-zone signals and document the human-verified event outcome.",
+      "fields": [
+        {
+          "key": "eventReference",
+          "label": "Event reference",
+          "type": "text",
+          "required": true,
+          "default": "EVENT-DEMO-091"
+        },
+        {
+          "key": "eventType",
+          "label": "Event type",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Fall detected",
+            "Near equipment",
+            "Restricted-zone entry",
+            "No-motion alert"
+          ],
+          "default": "Restricted-zone entry"
+        },
+        {
+          "key": "zone",
+          "label": "Site zone",
+          "type": "text",
+          "required": true,
+          "default": "Tower crane swing radius"
+        },
+        {
+          "key": "severity",
+          "label": "Severity",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Low",
+            "Medium",
+            "High",
+            "Critical"
+          ],
+          "default": "High"
+        },
+        {
+          "key": "evidence",
+          "label": "Evidence",
+          "type": "textarea",
+          "required": true,
+          "default": "Device entered the exclusion zone for 18 seconds; no injury reported in demo."
+        }
+      ],
+      "states": [
+        "detected",
+        "safety_review",
+        "confirmed",
+        "closed"
+      ],
+      "transitions": [
+        {
+          "id": "proximity-fall-event-triage-safety_review",
+          "label": "Move to safety review",
+          "from": [
+            "detected"
+          ],
+          "to": "safety_review"
+        },
+        {
+          "id": "proximity-fall-event-triage-confirmed",
+          "label": "Move to confirmed",
+          "from": [
+            "safety_review"
+          ],
+          "to": "confirmed"
+        },
+        {
+          "id": "proximity-fall-event-triage-closed",
+          "label": "Move to closed",
+          "from": [
+            "confirmed"
+          ],
+          "to": "closed"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "proximity-fall-event-triage-demo",
+          "state": "detected",
+          "eventReference": "EVENT-DEMO-091",
+          "eventType": "Restricted-zone entry",
+          "zone": "Tower crane swing radius",
+          "severity": "High",
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo."
+        }
+      ]
+    },
+    {
+      "id": "lone-worker-check-in",
+      "title": "Lone Worker Check-In",
+      "description": "Schedule check-ins, monitor missed acknowledgments, and escalate through the approved site response chain.",
+      "fields": [
+        {
+          "key": "workerReference",
+          "label": "Worker reference",
+          "type": "text",
+          "required": true,
+          "default": "WORKER-DEMO-94"
+        },
+        {
+          "key": "workArea",
+          "label": "Work area",
+          "type": "text",
+          "required": true,
+          "default": "Basement pump room"
+        },
+        {
+          "key": "checkInDue",
+          "label": "Check-in due",
+          "type": "text",
+          "required": true,
+          "default": "2026-07-13T21:30:00-04:00"
+        },
+        {
+          "key": "responsePlan",
+          "label": "Response plan",
+          "type": "textarea",
+          "required": true,
+          "default": "Call worker, notify site supervisor, then dispatch trained onsite responder."
+        },
+        {
+          "key": "externalStatus",
+          "label": "External notification status",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Not configured",
+            "Ready for human action",
+            "Handled onsite",
+            "Blocked"
+          ],
+          "default": "Not configured"
+        }
+      ],
+      "states": [
+        "scheduled",
+        "awaiting",
+        "overdue",
+        "resolved"
+      ],
+      "transitions": [
+        {
+          "id": "lone-worker-check-in-awaiting",
+          "label": "Move to awaiting",
+          "from": [
+            "scheduled"
+          ],
+          "to": "awaiting"
+        },
+        {
+          "id": "lone-worker-check-in-overdue",
+          "label": "Move to overdue",
+          "from": [
+            "awaiting"
+          ],
+          "to": "overdue"
+        },
+        {
+          "id": "lone-worker-check-in-resolved",
+          "label": "Move to resolved",
+          "from": [
+            "overdue"
+          ],
+          "to": "resolved"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "lone-worker-check-in-demo",
+          "state": "scheduled",
+          "workerReference": "WORKER-DEMO-94",
+          "workArea": "Basement pump room",
+          "checkInDue": "2026-07-13T21:30:00-04:00",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder.",
+          "externalStatus": "Not configured"
+        }
+      ]
+    },
+    {
+      "id": "incident-corrective-action",
+      "title": "Incident and Corrective Action",
+      "description": "Investigate incidents and near misses, establish root causes, assign actions, and verify closure evidence.",
+      "fields": [
+        {
+          "key": "incidentReference",
+          "label": "Incident reference",
+          "type": "text",
+          "required": true,
+          "default": "INC-DEMO-014"
+        },
+        {
+          "key": "classification",
+          "label": "Classification",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Near miss",
+            "First aid",
+            "Recordable",
+            "Property damage"
+          ],
+          "default": "Near miss"
+        },
+        {
+          "key": "description",
+          "label": "Description",
+          "type": "textarea",
+          "required": true,
+          "default": "Worker crossed a crane exclusion boundary during material staging."
+        },
+        {
+          "key": "rootCause",
+          "label": "Preliminary root cause",
+          "type": "textarea",
+          "required": true,
+          "default": "Barricade visibility was reduced after staging layout changed."
+        },
+        {
+          "key": "actionOwner",
+          "label": "Corrective-action owner",
+          "type": "text",
+          "required": true,
+          "default": "Demo Site Superintendent"
+        }
+      ],
+      "states": [
+        "reported",
+        "investigating",
+        "actions_assigned",
+        "verified"
+      ],
+      "transitions": [
+        {
+          "id": "incident-corrective-action-investigating",
+          "label": "Move to investigating",
+          "from": [
+            "reported"
+          ],
+          "to": "investigating"
+        },
+        {
+          "id": "incident-corrective-action-actions_assigned",
+          "label": "Move to actions assigned",
+          "from": [
+            "investigating"
+          ],
+          "to": "actions_assigned"
+        },
+        {
+          "id": "incident-corrective-action-verified",
+          "label": "Move to verified",
+          "from": [
+            "actions_assigned"
+          ],
+          "to": "verified"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "incident-corrective-action-demo",
+          "state": "reported",
+          "incidentReference": "INC-DEMO-014",
+          "classification": "Near miss",
+          "description": "Worker crossed a crane exclusion boundary during material staging.",
+          "rootCause": "Barricade visibility was reduced after staging layout changed.",
+          "actionOwner": "Demo Site Superintendent"
+        }
+      ]
+    },
+    {
+      "id": "osha-safety-reporting",
+      "title": "OSHA and Safety Reporting",
+      "description": "Compile locally reviewed safety metrics and incident details into an export-ready report without claiming agency submission.",
+      "fields": [
+        {
+          "key": "reportingPeriod",
+          "label": "Reporting period",
+          "type": "text",
+          "required": true,
+          "default": "2026-Q3"
+        },
+        {
+          "key": "establishment",
+          "label": "Establishment",
+          "type": "text",
+          "required": true,
+          "default": "Demo Construction Project"
+        },
+        {
+          "key": "hoursWorked",
+          "label": "Hours worked",
+          "type": "number",
+          "required": true,
+          "default": 18400
+        },
+        {
+          "key": "recordableCases",
+          "label": "Recordable cases",
+          "type": "number",
+          "required": true,
+          "default": 1
+        },
+        {
+          "key": "agencyStatus",
+          "label": "Agency submission status",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Not submitted",
+            "Ready for human submission",
+            "Submitted manually",
+            "Blocked"
+          ],
+          "default": "Not submitted"
+        }
+      ],
+      "states": [
+        "draft",
+        "safety_review",
+        "approved",
+        "export_ready"
+      ],
+      "transitions": [
+        {
+          "id": "osha-safety-reporting-safety_review",
+          "label": "Move to safety review",
+          "from": [
+            "draft"
+          ],
+          "to": "safety_review"
+        },
+        {
+          "id": "osha-safety-reporting-approved",
+          "label": "Move to approved",
+          "from": [
+            "safety_review"
+          ],
+          "to": "approved"
+        },
+        {
+          "id": "osha-safety-reporting-export_ready",
+          "label": "Move to export ready",
+          "from": [
+            "approved"
+          ],
+          "to": "export_ready"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "osha-safety-reporting-demo",
+          "state": "draft",
+          "reportingPeriod": "2026-Q3",
+          "establishment": "Demo Construction Project",
+          "hoursWorked": 18400,
+          "recordableCases": 1,
+          "agencyStatus": "Not submitted"
+        }
+      ]
+    },
+    {
+      "id": "wearable-emergency-integration-readiness",
+      "title": "Wearable and Emergency Integration Readiness",
+      "description": "Inventory wearable, access-control, weather, and emergency-notification adapters and verify safe test behavior.",
+      "fields": [
+        {
+          "key": "integrationType",
+          "label": "Integration type",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Wearable platform",
+            "Access control",
+            "Weather",
+            "Emergency notification"
+          ],
+          "default": "Wearable platform"
+        },
+        {
+          "key": "provider",
+          "label": "Provider or adapter",
+          "type": "text",
+          "required": true,
+          "default": "Local emergency fixture"
+        },
+        {
+          "key": "environment",
+          "label": "Environment",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Local fixture",
+            "Sandbox configuration",
+            "Production configuration"
+          ],
+          "default": "Local fixture"
+        },
+        {
+          "key": "credentialStatus",
+          "label": "Credential status",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Not required for fixture",
+            "Missing",
+            "Stored externally"
+          ],
+          "default": "Not required for fixture"
+        },
+        {
+          "key": "testResult",
+          "label": "Test result",
+          "type": "select",
+          "required": true,
+          "options": [
+            "Not run",
+            "Passed without dispatch",
+            "Failed",
+            "Blocked"
+          ],
+          "default": "Not run"
+        }
+      ],
+      "states": [
+        "inventoried",
+        "mapped",
+        "test_ready",
+        "verified"
+      ],
+      "transitions": [
+        {
+          "id": "wearable-emergency-integration-readiness-mapped",
+          "label": "Move to mapped",
+          "from": [
+            "inventoried"
+          ],
+          "to": "mapped"
+        },
+        {
+          "id": "wearable-emergency-integration-readiness-test_ready",
+          "label": "Move to test ready",
+          "from": [
+            "mapped"
+          ],
+          "to": "test_ready"
+        },
+        {
+          "id": "wearable-emergency-integration-readiness-verified",
+          "label": "Move to verified",
+          "from": [
+            "test_ready"
+          ],
+          "to": "verified"
+        }
+      ],
+      "seeds": [
+        {
+          "id": "wearable-emergency-integration-readiness-demo",
+          "state": "inventoried",
+          "integrationType": "Wearable platform",
+          "provider": "Local emergency fixture",
+          "environment": "Local fixture",
+          "credentialStatus": "Not required for fixture",
+          "testResult": "Not run"
+        }
+      ]
+    }
+  ]
+}
