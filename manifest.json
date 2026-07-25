@@ -12,12 +12,12 @@
     "AIFactoryFloorSafetyMonitor",
     "AIPersonalSafetyLoneWorkerMonitor"
   ],
-  "featureCount": 357,
-  "candidateFeatureCount": 487,
-  "eliminatedSimilarFeatures": 130,
-  "evidenceCount": 1005,
-  "aiPageCount": 0,
-  "sourceAIPageCount": 0,
+  "featureCount": 366,
+  "candidateFeatureCount": 488,
+  "eliminatedSimilarFeatures": 122,
+  "evidenceCount": 1024,
+  "aiPageCount": 6,
+  "sourceAIPageCount": 6,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
@@ -26,6 +26,6 @@
     "seededTables": 0,
     "seededRows": 0
   },
-  "visibleFeatureCount": 238,
-  "featureVisibilityMode": "source-backed-fallback"
+  "visibleFeatureCount": 6,
+  "featureVisibilityMode": "seeded-or-ai"
 }

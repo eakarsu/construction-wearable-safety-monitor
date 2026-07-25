@@ -437,6 +437,111 @@
     ]
   },
   {
+    "name": "AI Center",
+    "canonicalKey": "ai",
+    "aliases": [
+      "AI",
+      "AI New Tools",
+      "AI Tools"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AICenter",
+      "/AINewTools",
+      "/ai",
+      "/ai-center",
+      "/ai-new-tools",
+      "/ai-tools"
+    ],
+    "sourceProjects": [
+      "AIConstructionWearableSafetyMonitor",
+      "AIDisasterResponseCoordinator",
+      "AIPersonalSafetyLoneWorkerMonitor",
+      "AIWildfirePredictionResponse",
+      "counter-swarm-defense"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/construction-wearable-safety-monitor",
+      "government-public-sector/disaster-response-coordinator",
+      "government-public-sector/inparkdigitalassistant"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "frontend/src/components/Sidebar.js:29",
+        "route": "",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "frontend/src/App.js:459",
+        "route": "/ai-center",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "frontend/src/components/Sidebar.js:29",
+        "route": "/ai-center",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "frontend/src/pages/AICenter.js",
+        "route": "/AICenter",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
+        "path": "frontend/src/components/Sidebar.jsx:61",
+        "route": "",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDisasterResponseCoordinator",
+        "path": "frontend/src/App.js:205",
+        "route": "/ai-new-tools",
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDisasterResponseCoordinator",
+        "path": "frontend/src/components/Layout.js:28",
+        "route": "/ai-new-tools",
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIDisasterResponseCoordinator",
+        "path": "frontend/src/pages/AINewTools.js",
+        "route": "/AINewTools",
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIWildfirePredictionResponse",
+        "path": "frontend/src/App.js:60",
+        "route": "/ai-tools",
+        "originApp": "government-public-sector/disaster-response-coordinator"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "counter-swarm-defense",
+        "path": "frontend/src/App.tsx:64",
+        "route": "/ai",
+        "originApp": "government-public-sector/inparkdigitalassistant"
+      }
+    ]
+  },
+  {
     "name": "AI Claim Fraud Page",
     "canonicalKey": "ai claim fraud",
     "aliases": [],
@@ -1055,6 +1160,32 @@
         "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
         "path": "frontend/src/pages/AIRouteSafetyPage.jsx",
         "route": "/AIRouteSafetyPage",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      }
+    ]
+  },
+  {
+    "name": "AI Safety Analysis",
+    "canonicalKey": "ai analysis safety",
+    "aliases": [],
+    "kinds": [
+      "ai-page"
+    ],
+    "routes": [
+      "/ai-analysis"
+    ],
+    "sourceProjects": [
+      "AIBuildingSafetyInspector"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/construction-wearable-safety-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "frontend/src/components/AIAnalysis.js:1",
+        "route": "/ai-analysis",
         "originApp": "government-public-sector/construction-wearable-safety-monitor"
       }
     ]
@@ -2813,6 +2944,41 @@
     ]
   },
   {
+    "name": "Chat",
+    "canonicalKey": "chat",
+    "aliases": [],
+    "kinds": [
+      "ai-page",
+      "api"
+    ],
+    "routes": [
+      "/ai-center",
+      "/chat"
+    ],
+    "sourceProjects": [
+      "AIConstructionWearableSafetyMonitor"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/construction-wearable-safety-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "frontend/src/pages/AICenter.js:1",
+        "route": "/ai-center",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIConstructionWearableSafetyMonitor",
+        "path": "backend/routes/ai.js:163",
+        "route": "/chat",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      }
+    ]
+  },
+  {
     "name": "Check",
     "canonicalKey": "check",
     "aliases": [],
@@ -3694,6 +3860,32 @@
         "sourceProject": "AIBuildingSafetyInspector",
         "path": "backend/routes/ai.js:729",
         "route": "/culture-scorecard",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      }
+    ]
+  },
+  {
+    "name": "Custom Query",
+    "canonicalKey": "custom query",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/custom-query"
+    ],
+    "sourceProjects": [
+      "AIBuildingSafetyInspector"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/construction-wearable-safety-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/ai.js:398",
+        "route": "/custom-query",
         "originApp": "government-public-sector/construction-wearable-safety-monitor"
       }
     ]
@@ -6177,6 +6369,32 @@
     ]
   },
   {
+    "name": "Generate Report",
+    "canonicalKey": "generate report",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/generate-report"
+    ],
+    "sourceProjects": [
+      "AIBuildingSafetyInspector"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/construction-wearable-safety-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIBuildingSafetyInspector",
+        "path": "backend/routes/ai.js:341",
+        "route": "/generate-report",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      }
+    ]
+  },
+  {
     "name": "Generate Toolbox Talk",
     "canonicalKey": "generate talk toolbox",
     "aliases": [],
@@ -7635,28 +7853,31 @@
   {
     "name": "Incident Predict",
     "canonicalKey": "incident predict",
-    "aliases": [
-      "Incident Predict Page",
-      "Predict Incidents"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "page"
     ],
     "routes": [
-      "/IncidentPredictPage",
       "/ai/incident-predict",
-      "/incident-predict",
-      "/predict-incidents"
+      "/ai/incident-predict?tool=incident-predict",
+      "/incident-predict"
     ],
     "sourceProjects": [
-      "AIBuildingSafetyInspector",
       "AIFactoryFloorSafetyMonitor"
     ],
     "consolidatedFromApps": [
       "government-public-sector/construction-wearable-safety-monitor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIFactoryFloorSafetyMonitor",
+        "path": "frontend/src/pages/IncidentPredictPage.jsx:50",
+        "route": "/ai/incident-predict?tool=incident-predict",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
       {
         "kind": "api",
         "sourceProject": "AIFactoryFloorSafetyMonitor",
@@ -7677,7 +7898,31 @@
         "path": "frontend/src/components/Layout.jsx:17",
         "route": "/ai/incident-predict",
         "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Incident Predict Page",
+    "canonicalKey": "incident predict",
+    "aliases": [
+      "Predict Incidents"
+    ],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/IncidentPredictPage",
+      "/predict-incidents"
+    ],
+    "sourceProjects": [
+      "AIBuildingSafetyInspector",
+      "AIFactoryFloorSafetyMonitor"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/construction-wearable-safety-monitor"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIFactoryFloorSafetyMonitor",
@@ -7829,11 +8074,42 @@
   {
     "name": "Incident Report Builder",
     "canonicalKey": "builder incident report",
-    "aliases": [
-      "Incident Report Builder Page"
-    ],
+    "aliases": [],
     "kinds": [
-      "navigation",
+      "ai-page",
+      "navigation"
+    ],
+    "routes": [
+      "/ai/incident-report"
+    ],
+    "sourceProjects": [
+      "AIPersonalSafetyLoneWorkerMonitor"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/construction-wearable-safety-monitor"
+    ],
+    "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
+        "path": "frontend/src/pages/IncidentReportBuilderPage.jsx:1",
+        "route": "/ai/incident-report",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
+        "path": "frontend/src/components/Sidebar.jsx:78",
+        "route": "",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      }
+    ]
+  },
+  {
+    "name": "Incident Report Builder Page",
+    "canonicalKey": "builder incident report",
+    "aliases": [],
+    "kinds": [
       "page"
     ],
     "routes": [
@@ -7846,13 +8122,6 @@
       "government-public-sector/construction-wearable-safety-monitor"
     ],
     "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
-        "path": "frontend/src/components/Sidebar.jsx:78",
-        "route": "",
-        "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
       {
         "kind": "page",
         "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
@@ -11480,18 +11749,15 @@
   {
     "name": "Risk Assess",
     "canonicalKey": "assess risk",
-    "aliases": [
-      "Risk Assess Tool",
-      "Risk Assess Tool Page"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
-      "navigation",
       "page"
     ],
     "routes": [
-      "/RiskAssessToolPage",
       "/ai/risk-assess",
+      "/ai/risk-assess?tool=risk-assess",
       "/risk-assess"
     ],
     "sourceProjects": [
@@ -11501,6 +11767,13 @@
       "government-public-sector/construction-wearable-safety-monitor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
+        "path": "frontend/src/pages/RiskAssessToolPage.jsx:60",
+        "route": "/ai/risk-assess?tool=risk-assess",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
       {
         "kind": "api",
         "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
@@ -11521,7 +11794,29 @@
         "path": "frontend/src/components/Sidebar.jsx:75",
         "route": "/ai/risk-assess",
         "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Risk Assess Tool",
+    "canonicalKey": "assess risk",
+    "aliases": [
+      "Risk Assess Tool Page"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/RiskAssessToolPage"
+    ],
+    "sourceProjects": [
+      "AIPersonalSafetyLoneWorkerMonitor"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/construction-wearable-safety-monitor"
+    ],
+    "evidence": [
       {
         "kind": "navigation",
         "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
@@ -12324,17 +12619,16 @@
   {
     "name": "Safety Briefing",
     "canonicalKey": "briefing safety",
-    "aliases": [
-      "Safety Briefing Page"
-    ],
+    "aliases": [],
     "kinds": [
+      "ai-page",
       "api",
       "navigation",
       "page"
     ],
     "routes": [
-      "/SafetyBriefingPage",
       "/ai/safety-briefing",
+      "/ai/safety-briefing?tool=safety-briefing",
       "/safety-briefing"
     ],
     "sourceProjects": [
@@ -12344,6 +12638,13 @@
       "government-public-sector/construction-wearable-safety-monitor"
     ],
     "evidence": [
+      {
+        "kind": "ai-page",
+        "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
+        "path": "frontend/src/pages/SafetyBriefingPage.jsx:41",
+        "route": "/ai/safety-briefing?tool=safety-briefing",
+        "originApp": "government-public-sector/construction-wearable-safety-monitor"
+      },
       {
         "kind": "api",
         "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",
@@ -12371,7 +12672,26 @@
         "path": "frontend/src/components/Sidebar.jsx:77",
         "route": "/ai/safety-briefing",
         "originApp": "government-public-sector/construction-wearable-safety-monitor"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Safety Briefing Page",
+    "canonicalKey": "briefing safety",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/SafetyBriefingPage"
+    ],
+    "sourceProjects": [
+      "AIPersonalSafetyLoneWorkerMonitor"
+    ],
+    "consolidatedFromApps": [
+      "government-public-sector/construction-wearable-safety-monitor"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIPersonalSafetyLoneWorkerMonitor",

@@ -90,7 +90,7 @@
           "id": "worker-device-enrollment-001",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0001",
-          "role": "Ironworker — North Region — North Region",
+          "role": "Ironworker — North Region — North Region — North Region — North Region — North Region",
           "deviceId": "CONSTRUCTI-0001",
           "trainingStatus": "Not started",
           "consentStatus": "Needs verification"
@@ -99,7 +99,7 @@
           "id": "worker-device-enrollment-002",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0002",
-          "role": "Ironworker — Enterprise Account — Enterprise Account",
+          "role": "Ironworker — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "deviceId": "CONSTRUCTI-0002",
           "trainingStatus": "Scheduled",
           "consentStatus": "Confirmed for demo"
@@ -108,7 +108,7 @@
           "id": "worker-device-enrollment-003",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0003",
-          "role": "Ironworker — Quarterly Cycle — Quarterly Cycle",
+          "role": "Ironworker — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "deviceId": "CONSTRUCTI-0003",
           "trainingStatus": "Completed",
           "consentStatus": "Declined"
@@ -117,7 +117,7 @@
           "id": "worker-device-enrollment-004",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0004",
-          "role": "Ironworker — Priority Queue — Priority Queue",
+          "role": "Ironworker — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "deviceId": "CONSTRUCTI-0004",
           "trainingStatus": "Not started",
           "consentStatus": "Needs verification"
@@ -126,7 +126,7 @@
           "id": "worker-device-enrollment-005",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0005",
-          "role": "Ironworker — Operations Review — Operations Review",
+          "role": "Ironworker — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "deviceId": "CONSTRUCTI-0005",
           "trainingStatus": "Scheduled",
           "consentStatus": "Confirmed for demo"
@@ -135,7 +135,7 @@
           "id": "worker-device-enrollment-006",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0006",
-          "role": "Ironworker — Customer Request — Customer Request",
+          "role": "Ironworker — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "deviceId": "CONSTRUCTI-0006",
           "trainingStatus": "Completed",
           "consentStatus": "Declined"
@@ -144,7 +144,7 @@
           "id": "worker-device-enrollment-007",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0007",
-          "role": "Ironworker — Compliance Check — Compliance Check",
+          "role": "Ironworker — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "deviceId": "CONSTRUCTI-0007",
           "trainingStatus": "Not started",
           "consentStatus": "Needs verification"
@@ -153,7 +153,7 @@
           "id": "worker-device-enrollment-008",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0008",
-          "role": "Ironworker — Service Window — Service Window",
+          "role": "Ironworker — Service Window — Service Window — Service Window — Service Window — Service Window",
           "deviceId": "CONSTRUCTI-0008",
           "trainingStatus": "Scheduled",
           "consentStatus": "Confirmed for demo"
@@ -162,7 +162,7 @@
           "id": "worker-device-enrollment-009",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0009",
-          "role": "Ironworker — Quality Sample — Quality Sample",
+          "role": "Ironworker — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "deviceId": "CONSTRUCTI-0009",
           "trainingStatus": "Completed",
           "consentStatus": "Declined"
@@ -171,7 +171,7 @@
           "id": "worker-device-enrollment-010",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0010",
-          "role": "Ironworker — Management Review — Management Review",
+          "role": "Ironworker — Management Review — Management Review — Management Review — Management Review — Management Review",
           "deviceId": "CONSTRUCTI-0010",
           "trainingStatus": "Not started",
           "consentStatus": "Needs verification"
@@ -180,7 +180,7 @@
           "id": "worker-device-enrollment-011",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0011",
-          "role": "Ironworker — Exception Follow-up — Exception Follow-up",
+          "role": "Ironworker — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "deviceId": "CONSTRUCTI-0011",
           "trainingStatus": "Scheduled",
           "consentStatus": "Confirmed for demo"
@@ -189,7 +189,7 @@
           "id": "worker-device-enrollment-012",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0012",
-          "role": "Ironworker — Evidence Package — Evidence Package",
+          "role": "Ironworker — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "deviceId": "CONSTRUCTI-0012",
           "trainingStatus": "Completed",
           "consentStatus": "Declined"
@@ -198,7 +198,7 @@
           "id": "worker-device-enrollment-013",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0013",
-          "role": "Ironworker — Planning Cycle — Planning Cycle",
+          "role": "Ironworker — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "deviceId": "CONSTRUCTI-0013",
           "trainingStatus": "Not started",
           "consentStatus": "Needs verification"
@@ -207,7 +207,7 @@
           "id": "worker-device-enrollment-014",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0014",
-          "role": "Ironworker — Performance Review — Performance Review",
+          "role": "Ironworker — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "deviceId": "CONSTRUCTI-0014",
           "trainingStatus": "Scheduled",
           "consentStatus": "Confirmed for demo"
@@ -216,7 +216,7 @@
           "id": "worker-device-enrollment-015",
           "state": "draft",
           "workerReference": "CONSTRUCTI-0015",
-          "role": "Ironworker — Final Verification — Final Verification",
+          "role": "Ironworker — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "deviceId": "CONSTRUCTI-0015",
           "trainingStatus": "Completed",
           "consentStatus": "Declined"
@@ -301,8 +301,8 @@
           "id": "wearable-telemetry-intake-001",
           "state": "received",
           "deviceId": "CONSTRUCTI-0001",
-          "adapter": "Local wearable fixture — North Region — North Region",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — North Region — North Region",
+          "adapter": "Local wearable fixture — North Region — North Region — North Region — North Region — North Region",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — North Region — North Region — North Region — North Region — North Region",
           "recordCount": 720.0,
           "qualityScore": 95.0
         },
@@ -310,127 +310,127 @@
           "id": "wearable-telemetry-intake-002",
           "state": "received",
           "deviceId": "CONSTRUCTI-0002",
-          "adapter": "Local wearable fixture — Enterprise Account — Enterprise Account",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — Enterprise Account — Enterprise Account",
-          "recordCount": 722.0,
-          "qualityScore": 97.0
+          "adapter": "Local wearable fixture — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
+          "recordCount": 725.0,
+          "qualityScore": 100.0
         },
         {
           "id": "wearable-telemetry-intake-003",
           "state": "received",
           "deviceId": "CONSTRUCTI-0003",
-          "adapter": "Local wearable fixture — Quarterly Cycle — Quarterly Cycle",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — Quarterly Cycle — Quarterly Cycle",
-          "recordCount": 724.0,
-          "qualityScore": 99.0
+          "adapter": "Local wearable fixture — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
+          "recordCount": 730.0,
+          "qualityScore": 105.0
         },
         {
           "id": "wearable-telemetry-intake-004",
           "state": "received",
           "deviceId": "CONSTRUCTI-0004",
-          "adapter": "Local wearable fixture — Priority Queue — Priority Queue",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — Priority Queue — Priority Queue",
-          "recordCount": 726.0,
-          "qualityScore": 101.0
+          "adapter": "Local wearable fixture — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
+          "recordCount": 735.0,
+          "qualityScore": 110.0
         },
         {
           "id": "wearable-telemetry-intake-005",
           "state": "received",
           "deviceId": "CONSTRUCTI-0005",
-          "adapter": "Local wearable fixture — Operations Review — Operations Review",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — Operations Review — Operations Review",
-          "recordCount": 728.0,
-          "qualityScore": 103.0
+          "adapter": "Local wearable fixture — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
+          "recordCount": 740.0,
+          "qualityScore": 115.0
         },
         {
           "id": "wearable-telemetry-intake-006",
           "state": "received",
           "deviceId": "CONSTRUCTI-0006",
-          "adapter": "Local wearable fixture — Customer Request — Customer Request",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — Customer Request — Customer Request",
-          "recordCount": 730.0,
-          "qualityScore": 105.0
+          "adapter": "Local wearable fixture — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
+          "recordCount": 745.0,
+          "qualityScore": 120.0
         },
         {
           "id": "wearable-telemetry-intake-007",
           "state": "received",
           "deviceId": "CONSTRUCTI-0007",
-          "adapter": "Local wearable fixture — Compliance Check — Compliance Check",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — Compliance Check — Compliance Check",
-          "recordCount": 732.0,
-          "qualityScore": 107.0
+          "adapter": "Local wearable fixture — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
+          "recordCount": 750.0,
+          "qualityScore": 125.0
         },
         {
           "id": "wearable-telemetry-intake-008",
           "state": "received",
           "deviceId": "CONSTRUCTI-0008",
-          "adapter": "Local wearable fixture — Service Window — Service Window",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — Service Window — Service Window",
-          "recordCount": 734.0,
-          "qualityScore": 109.0
+          "adapter": "Local wearable fixture — Service Window — Service Window — Service Window — Service Window — Service Window",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — Service Window — Service Window — Service Window — Service Window — Service Window",
+          "recordCount": 755.0,
+          "qualityScore": 130.0
         },
         {
           "id": "wearable-telemetry-intake-009",
           "state": "received",
           "deviceId": "CONSTRUCTI-0009",
-          "adapter": "Local wearable fixture — Quality Sample — Quality Sample",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — Quality Sample — Quality Sample",
-          "recordCount": 736.0,
-          "qualityScore": 111.0
+          "adapter": "Local wearable fixture — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
+          "recordCount": 760.0,
+          "qualityScore": 135.0
         },
         {
           "id": "wearable-telemetry-intake-010",
           "state": "received",
           "deviceId": "CONSTRUCTI-0010",
-          "adapter": "Local wearable fixture — Management Review — Management Review",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — Management Review — Management Review",
-          "recordCount": 738.0,
-          "qualityScore": 113.0
+          "adapter": "Local wearable fixture — Management Review — Management Review — Management Review — Management Review — Management Review",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — Management Review — Management Review — Management Review — Management Review — Management Review",
+          "recordCount": 765.0,
+          "qualityScore": 140.0
         },
         {
           "id": "wearable-telemetry-intake-011",
           "state": "received",
           "deviceId": "CONSTRUCTI-0011",
-          "adapter": "Local wearable fixture — Exception Follow-up — Exception Follow-up",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — Exception Follow-up — Exception Follow-up",
-          "recordCount": 740.0,
-          "qualityScore": 115.0
+          "adapter": "Local wearable fixture — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
+          "recordCount": 770.0,
+          "qualityScore": 145.0
         },
         {
           "id": "wearable-telemetry-intake-012",
           "state": "received",
           "deviceId": "CONSTRUCTI-0012",
-          "adapter": "Local wearable fixture — Evidence Package — Evidence Package",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — Evidence Package — Evidence Package",
-          "recordCount": 742.0,
-          "qualityScore": 117.0
+          "adapter": "Local wearable fixture — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
+          "recordCount": 775.0,
+          "qualityScore": 150.0
         },
         {
           "id": "wearable-telemetry-intake-013",
           "state": "received",
           "deviceId": "CONSTRUCTI-0013",
-          "adapter": "Local wearable fixture — Planning Cycle — Planning Cycle",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — Planning Cycle — Planning Cycle",
-          "recordCount": 744.0,
-          "qualityScore": 119.0
+          "adapter": "Local wearable fixture — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
+          "recordCount": 780.0,
+          "qualityScore": 155.0
         },
         {
           "id": "wearable-telemetry-intake-014",
           "state": "received",
           "deviceId": "CONSTRUCTI-0014",
-          "adapter": "Local wearable fixture — Performance Review — Performance Review",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — Performance Review — Performance Review",
-          "recordCount": 746.0,
-          "qualityScore": 121.0
+          "adapter": "Local wearable fixture — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
+          "recordCount": 785.0,
+          "qualityScore": 160.0
         },
         {
           "id": "wearable-telemetry-intake-015",
           "state": "received",
           "deviceId": "CONSTRUCTI-0015",
-          "adapter": "Local wearable fixture — Final Verification — Final Verification",
-          "signalTypes": "heart rate; skin temperature; motion; location zone — Final Verification — Final Verification",
-          "recordCount": 748.0,
-          "qualityScore": 123.0
+          "adapter": "Local wearable fixture — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
+          "signalTypes": "heart rate; skin temperature; motion; location zone — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
+          "recordCount": 790.0,
+          "qualityScore": 165.0
         }
       ]
     },
@@ -519,135 +519,135 @@
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0001",
           "heatIndex": 103.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — North Region — North Region",
+          "workRestCycle": "45 minutes work / 15 minutes rest — North Region — North Region — North Region — North Region — North Region",
           "riskLevel": "Low",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — North Region — North Region"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — North Region — North Region — North Region — North Region — North Region"
         },
         {
           "id": "fatigue-heat-stress-analysis-002",
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0002",
-          "heatIndex": 105.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — Enterprise Account — Enterprise Account",
+          "heatIndex": 108.0,
+          "workRestCycle": "45 minutes work / 15 minutes rest — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "riskLevel": "Medium",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Enterprise Account — Enterprise Account"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account"
         },
         {
           "id": "fatigue-heat-stress-analysis-003",
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0003",
-          "heatIndex": 107.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — Quarterly Cycle — Quarterly Cycle",
+          "heatIndex": 113.0,
+          "workRestCycle": "45 minutes work / 15 minutes rest — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "riskLevel": "High",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Quarterly Cycle — Quarterly Cycle"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle"
         },
         {
           "id": "fatigue-heat-stress-analysis-004",
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0004",
-          "heatIndex": 109.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — Priority Queue — Priority Queue",
+          "heatIndex": 118.0,
+          "workRestCycle": "45 minutes work / 15 minutes rest — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "riskLevel": "Critical",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Priority Queue — Priority Queue"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue"
         },
         {
           "id": "fatigue-heat-stress-analysis-005",
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0005",
-          "heatIndex": 111.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — Operations Review — Operations Review",
+          "heatIndex": 123.0,
+          "workRestCycle": "45 minutes work / 15 minutes rest — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "riskLevel": "Low",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Operations Review — Operations Review"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review"
         },
         {
           "id": "fatigue-heat-stress-analysis-006",
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0006",
-          "heatIndex": 113.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — Customer Request — Customer Request",
+          "heatIndex": 128.0,
+          "workRestCycle": "45 minutes work / 15 minutes rest — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "riskLevel": "Medium",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Customer Request — Customer Request"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request"
         },
         {
           "id": "fatigue-heat-stress-analysis-007",
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0007",
-          "heatIndex": 115.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — Compliance Check — Compliance Check",
+          "heatIndex": 133.0,
+          "workRestCycle": "45 minutes work / 15 minutes rest — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "riskLevel": "High",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Compliance Check — Compliance Check"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check"
         },
         {
           "id": "fatigue-heat-stress-analysis-008",
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0008",
-          "heatIndex": 117.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — Service Window — Service Window",
+          "heatIndex": 138.0,
+          "workRestCycle": "45 minutes work / 15 minutes rest — Service Window — Service Window — Service Window — Service Window — Service Window",
           "riskLevel": "Critical",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Service Window — Service Window"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Service Window — Service Window — Service Window — Service Window — Service Window"
         },
         {
           "id": "fatigue-heat-stress-analysis-009",
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0009",
-          "heatIndex": 119.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — Quality Sample — Quality Sample",
+          "heatIndex": 143.0,
+          "workRestCycle": "45 minutes work / 15 minutes rest — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "riskLevel": "Low",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Quality Sample — Quality Sample"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample"
         },
         {
           "id": "fatigue-heat-stress-analysis-010",
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0010",
-          "heatIndex": 121.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — Management Review — Management Review",
+          "heatIndex": 148.0,
+          "workRestCycle": "45 minutes work / 15 minutes rest — Management Review — Management Review — Management Review — Management Review — Management Review",
           "riskLevel": "Medium",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Management Review — Management Review"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Management Review — Management Review — Management Review — Management Review — Management Review"
         },
         {
           "id": "fatigue-heat-stress-analysis-011",
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0011",
-          "heatIndex": 123.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — Exception Follow-up — Exception Follow-up",
+          "heatIndex": 153.0,
+          "workRestCycle": "45 minutes work / 15 minutes rest — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "riskLevel": "High",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Exception Follow-up — Exception Follow-up"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up"
         },
         {
           "id": "fatigue-heat-stress-analysis-012",
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0012",
-          "heatIndex": 125.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — Evidence Package — Evidence Package",
+          "heatIndex": 158.0,
+          "workRestCycle": "45 minutes work / 15 minutes rest — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "riskLevel": "Critical",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Evidence Package — Evidence Package"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package"
         },
         {
           "id": "fatigue-heat-stress-analysis-013",
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0013",
-          "heatIndex": 127.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — Planning Cycle — Planning Cycle",
+          "heatIndex": 163.0,
+          "workRestCycle": "45 minutes work / 15 minutes rest — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "riskLevel": "Low",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Planning Cycle — Planning Cycle"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle"
         },
         {
           "id": "fatigue-heat-stress-analysis-014",
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0014",
-          "heatIndex": 129.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — Performance Review — Performance Review",
+          "heatIndex": 168.0,
+          "workRestCycle": "45 minutes work / 15 minutes rest — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "riskLevel": "Medium",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Performance Review — Performance Review"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review"
         },
         {
           "id": "fatigue-heat-stress-analysis-015",
           "state": "monitoring",
           "workerReference": "CONSTRUCTI-0015",
-          "heatIndex": 131.0,
-          "workRestCycle": "45 minutes work / 15 minutes rest — Final Verification — Final Verification",
+          "heatIndex": 173.0,
+          "workRestCycle": "45 minutes work / 15 minutes rest — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "riskLevel": "High",
-          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Final Verification — Final Verification"
+          "evidence": "Rising skin temperature and sustained exertion during high heat index. — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification"
         }
       ]
     },
@@ -742,135 +742,135 @@
           "state": "detected",
           "eventReference": "CONSTRUCTI-0001",
           "eventType": "Fall detected",
-          "zone": "Tower crane swing radius — North Region — North Region",
+          "zone": "Tower crane swing radius — North Region — North Region — North Region — North Region — North Region",
           "severity": "Low",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — North Region — North Region"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — North Region — North Region — North Region — North Region — North Region"
         },
         {
           "id": "proximity-fall-event-triage-002",
           "state": "detected",
           "eventReference": "CONSTRUCTI-0002",
           "eventType": "Near equipment",
-          "zone": "Tower crane swing radius — Enterprise Account — Enterprise Account",
+          "zone": "Tower crane swing radius — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "severity": "Medium",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Enterprise Account — Enterprise Account"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account"
         },
         {
           "id": "proximity-fall-event-triage-003",
           "state": "detected",
           "eventReference": "CONSTRUCTI-0003",
           "eventType": "Restricted-zone entry",
-          "zone": "Tower crane swing radius — Quarterly Cycle — Quarterly Cycle",
+          "zone": "Tower crane swing radius — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "severity": "High",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Quarterly Cycle — Quarterly Cycle"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle"
         },
         {
           "id": "proximity-fall-event-triage-004",
           "state": "detected",
           "eventReference": "CONSTRUCTI-0004",
           "eventType": "No-motion alert",
-          "zone": "Tower crane swing radius — Priority Queue — Priority Queue",
+          "zone": "Tower crane swing radius — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "severity": "Critical",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Priority Queue — Priority Queue"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue"
         },
         {
           "id": "proximity-fall-event-triage-005",
           "state": "detected",
           "eventReference": "CONSTRUCTI-0005",
           "eventType": "Fall detected",
-          "zone": "Tower crane swing radius — Operations Review — Operations Review",
+          "zone": "Tower crane swing radius — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "severity": "Low",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Operations Review — Operations Review"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review"
         },
         {
           "id": "proximity-fall-event-triage-006",
           "state": "detected",
           "eventReference": "CONSTRUCTI-0006",
           "eventType": "Near equipment",
-          "zone": "Tower crane swing radius — Customer Request — Customer Request",
+          "zone": "Tower crane swing radius — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "severity": "Medium",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Customer Request — Customer Request"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request"
         },
         {
           "id": "proximity-fall-event-triage-007",
           "state": "detected",
           "eventReference": "CONSTRUCTI-0007",
           "eventType": "Restricted-zone entry",
-          "zone": "Tower crane swing radius — Compliance Check — Compliance Check",
+          "zone": "Tower crane swing radius — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "severity": "High",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Compliance Check — Compliance Check"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check"
         },
         {
           "id": "proximity-fall-event-triage-008",
           "state": "detected",
           "eventReference": "CONSTRUCTI-0008",
           "eventType": "No-motion alert",
-          "zone": "Tower crane swing radius — Service Window — Service Window",
+          "zone": "Tower crane swing radius — Service Window — Service Window — Service Window — Service Window — Service Window",
           "severity": "Critical",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Service Window — Service Window"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Service Window — Service Window — Service Window — Service Window — Service Window"
         },
         {
           "id": "proximity-fall-event-triage-009",
           "state": "detected",
           "eventReference": "CONSTRUCTI-0009",
           "eventType": "Fall detected",
-          "zone": "Tower crane swing radius — Quality Sample — Quality Sample",
+          "zone": "Tower crane swing radius — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "severity": "Low",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Quality Sample — Quality Sample"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample"
         },
         {
           "id": "proximity-fall-event-triage-010",
           "state": "detected",
           "eventReference": "CONSTRUCTI-0010",
           "eventType": "Near equipment",
-          "zone": "Tower crane swing radius — Management Review — Management Review",
+          "zone": "Tower crane swing radius — Management Review — Management Review — Management Review — Management Review — Management Review",
           "severity": "Medium",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Management Review — Management Review"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Management Review — Management Review — Management Review — Management Review — Management Review"
         },
         {
           "id": "proximity-fall-event-triage-011",
           "state": "detected",
           "eventReference": "CONSTRUCTI-0011",
           "eventType": "Restricted-zone entry",
-          "zone": "Tower crane swing radius — Exception Follow-up — Exception Follow-up",
+          "zone": "Tower crane swing radius — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "severity": "High",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Exception Follow-up — Exception Follow-up"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up"
         },
         {
           "id": "proximity-fall-event-triage-012",
           "state": "detected",
           "eventReference": "CONSTRUCTI-0012",
           "eventType": "No-motion alert",
-          "zone": "Tower crane swing radius — Evidence Package — Evidence Package",
+          "zone": "Tower crane swing radius — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "severity": "Critical",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Evidence Package — Evidence Package"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package"
         },
         {
           "id": "proximity-fall-event-triage-013",
           "state": "detected",
           "eventReference": "CONSTRUCTI-0013",
           "eventType": "Fall detected",
-          "zone": "Tower crane swing radius — Planning Cycle — Planning Cycle",
+          "zone": "Tower crane swing radius — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "severity": "Low",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Planning Cycle — Planning Cycle"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle"
         },
         {
           "id": "proximity-fall-event-triage-014",
           "state": "detected",
           "eventReference": "CONSTRUCTI-0014",
           "eventType": "Near equipment",
-          "zone": "Tower crane swing radius — Performance Review — Performance Review",
+          "zone": "Tower crane swing radius — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "severity": "Medium",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Performance Review — Performance Review"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review"
         },
         {
           "id": "proximity-fall-event-triage-015",
           "state": "detected",
           "eventReference": "CONSTRUCTI-0015",
           "eventType": "Restricted-zone entry",
-          "zone": "Tower crane swing radius — Final Verification — Final Verification",
+          "zone": "Tower crane swing radius — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "severity": "High",
-          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Final Verification — Final Verification"
+          "evidence": "Device entered the exclusion zone for 18 seconds; no injury reported in demo. — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification"
         }
       ]
     },
@@ -958,135 +958,135 @@
           "id": "lone-worker-check-in-001",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0001",
-          "workArea": "Basement pump room — North Region — North Region",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — North Region — North Region",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — North Region — North Region",
+          "workArea": "Basement pump room — North Region — North Region — North Region — North Region — North Region",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — North Region — North Region — North Region — North Region — North Region",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — North Region — North Region — North Region — North Region — North Region",
           "externalStatus": "Not configured"
         },
         {
           "id": "lone-worker-check-in-002",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0002",
-          "workArea": "Basement pump room — Enterprise Account — Enterprise Account",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — Enterprise Account — Enterprise Account",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Enterprise Account — Enterprise Account",
+          "workArea": "Basement pump room — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "externalStatus": "Ready for human action"
         },
         {
           "id": "lone-worker-check-in-003",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0003",
-          "workArea": "Basement pump room — Quarterly Cycle — Quarterly Cycle",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — Quarterly Cycle — Quarterly Cycle",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Quarterly Cycle — Quarterly Cycle",
+          "workArea": "Basement pump room — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "externalStatus": "Handled onsite"
         },
         {
           "id": "lone-worker-check-in-004",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0004",
-          "workArea": "Basement pump room — Priority Queue — Priority Queue",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — Priority Queue — Priority Queue",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Priority Queue — Priority Queue",
+          "workArea": "Basement pump room — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "externalStatus": "Blocked"
         },
         {
           "id": "lone-worker-check-in-005",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0005",
-          "workArea": "Basement pump room — Operations Review — Operations Review",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — Operations Review — Operations Review",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Operations Review — Operations Review",
+          "workArea": "Basement pump room — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "externalStatus": "Not configured"
         },
         {
           "id": "lone-worker-check-in-006",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0006",
-          "workArea": "Basement pump room — Customer Request — Customer Request",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — Customer Request — Customer Request",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Customer Request — Customer Request",
+          "workArea": "Basement pump room — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "externalStatus": "Ready for human action"
         },
         {
           "id": "lone-worker-check-in-007",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0007",
-          "workArea": "Basement pump room — Compliance Check — Compliance Check",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — Compliance Check — Compliance Check",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Compliance Check — Compliance Check",
+          "workArea": "Basement pump room — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "externalStatus": "Handled onsite"
         },
         {
           "id": "lone-worker-check-in-008",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0008",
-          "workArea": "Basement pump room — Service Window — Service Window",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — Service Window — Service Window",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Service Window — Service Window",
+          "workArea": "Basement pump room — Service Window — Service Window — Service Window — Service Window — Service Window",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — Service Window — Service Window — Service Window — Service Window — Service Window",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Service Window — Service Window — Service Window — Service Window — Service Window",
           "externalStatus": "Blocked"
         },
         {
           "id": "lone-worker-check-in-009",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0009",
-          "workArea": "Basement pump room — Quality Sample — Quality Sample",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — Quality Sample — Quality Sample",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Quality Sample — Quality Sample",
+          "workArea": "Basement pump room — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "externalStatus": "Not configured"
         },
         {
           "id": "lone-worker-check-in-010",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0010",
-          "workArea": "Basement pump room — Management Review — Management Review",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — Management Review — Management Review",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Management Review — Management Review",
+          "workArea": "Basement pump room — Management Review — Management Review — Management Review — Management Review — Management Review",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — Management Review — Management Review — Management Review — Management Review — Management Review",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Management Review — Management Review — Management Review — Management Review — Management Review",
           "externalStatus": "Ready for human action"
         },
         {
           "id": "lone-worker-check-in-011",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0011",
-          "workArea": "Basement pump room — Exception Follow-up — Exception Follow-up",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — Exception Follow-up — Exception Follow-up",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Exception Follow-up — Exception Follow-up",
+          "workArea": "Basement pump room — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "externalStatus": "Handled onsite"
         },
         {
           "id": "lone-worker-check-in-012",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0012",
-          "workArea": "Basement pump room — Evidence Package — Evidence Package",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — Evidence Package — Evidence Package",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Evidence Package — Evidence Package",
+          "workArea": "Basement pump room — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "externalStatus": "Blocked"
         },
         {
           "id": "lone-worker-check-in-013",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0013",
-          "workArea": "Basement pump room — Planning Cycle — Planning Cycle",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — Planning Cycle — Planning Cycle",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Planning Cycle — Planning Cycle",
+          "workArea": "Basement pump room — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "externalStatus": "Not configured"
         },
         {
           "id": "lone-worker-check-in-014",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0014",
-          "workArea": "Basement pump room — Performance Review — Performance Review",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — Performance Review — Performance Review",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Performance Review — Performance Review",
+          "workArea": "Basement pump room — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "externalStatus": "Ready for human action"
         },
         {
           "id": "lone-worker-check-in-015",
           "state": "scheduled",
           "workerReference": "CONSTRUCTI-0015",
-          "workArea": "Basement pump room — Final Verification — Final Verification",
-          "checkInDue": "2026-07-13T21:30:00-04:00 — Final Verification — Final Verification",
-          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Final Verification — Final Verification",
+          "workArea": "Basement pump room — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
+          "checkInDue": "2026-07-13T21:30:00-04:00 — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
+          "responsePlan": "Call worker, notify site supervisor, then dispatch trained onsite responder. — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "externalStatus": "Handled onsite"
         }
       ]
@@ -1176,8 +1176,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0001",
           "classification": "Near miss",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — North Region — North Region",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — North Region — North Region",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — North Region — North Region — North Region — North Region — North Region",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — North Region — North Region — North Region — North Region — North Region",
           "actionOwner": "Avery Morgan"
         },
         {
@@ -1185,8 +1185,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0002",
           "classification": "First aid",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — Enterprise Account — Enterprise Account",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — Enterprise Account — Enterprise Account",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "actionOwner": "Jordan Lee"
         },
         {
@@ -1194,8 +1194,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0003",
           "classification": "Recordable",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — Quarterly Cycle — Quarterly Cycle",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — Quarterly Cycle — Quarterly Cycle",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "actionOwner": "Taylor Brooks"
         },
         {
@@ -1203,8 +1203,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0004",
           "classification": "Property damage",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — Priority Queue — Priority Queue",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — Priority Queue — Priority Queue",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "actionOwner": "Morgan Chen"
         },
         {
@@ -1212,8 +1212,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0005",
           "classification": "Near miss",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — Operations Review — Operations Review",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — Operations Review — Operations Review",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "actionOwner": "Riley Patel"
         },
         {
@@ -1221,8 +1221,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0006",
           "classification": "First aid",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — Customer Request — Customer Request",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — Customer Request — Customer Request",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "actionOwner": "Casey Nguyen"
         },
         {
@@ -1230,8 +1230,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0007",
           "classification": "Recordable",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — Compliance Check — Compliance Check",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — Compliance Check — Compliance Check",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "actionOwner": "Cameron Diaz"
         },
         {
@@ -1239,8 +1239,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0008",
           "classification": "Property damage",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — Service Window — Service Window",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — Service Window — Service Window",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — Service Window — Service Window — Service Window — Service Window — Service Window",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — Service Window — Service Window — Service Window — Service Window — Service Window",
           "actionOwner": "Drew Wilson"
         },
         {
@@ -1248,8 +1248,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0009",
           "classification": "Near miss",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — Quality Sample — Quality Sample",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — Quality Sample — Quality Sample",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "actionOwner": "Emerson Clark"
         },
         {
@@ -1257,8 +1257,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0010",
           "classification": "First aid",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — Management Review — Management Review",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — Management Review — Management Review",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — Management Review — Management Review — Management Review — Management Review — Management Review",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — Management Review — Management Review — Management Review — Management Review — Management Review",
           "actionOwner": "Hayden Kim"
         },
         {
@@ -1266,8 +1266,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0011",
           "classification": "Recordable",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — Exception Follow-up — Exception Follow-up",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — Exception Follow-up — Exception Follow-up",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "actionOwner": "Jamie Rivera"
         },
         {
@@ -1275,8 +1275,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0012",
           "classification": "Property damage",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — Evidence Package — Evidence Package",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — Evidence Package — Evidence Package",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "actionOwner": "Kai Thompson"
         },
         {
@@ -1284,8 +1284,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0013",
           "classification": "Near miss",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — Planning Cycle — Planning Cycle",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — Planning Cycle — Planning Cycle",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "actionOwner": "Logan Shah"
         },
         {
@@ -1293,8 +1293,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0014",
           "classification": "First aid",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — Performance Review — Performance Review",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — Performance Review — Performance Review",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "actionOwner": "Parker Evans"
         },
         {
@@ -1302,8 +1302,8 @@
           "state": "reported",
           "incidentReference": "CONSTRUCTI-0015",
           "classification": "Recordable",
-          "description": "Worker crossed a crane exclusion boundary during material staging. — Final Verification — Final Verification",
-          "rootCause": "Barricade visibility was reduced after staging layout changed. — Final Verification — Final Verification",
+          "description": "Worker crossed a crane exclusion boundary during material staging. — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
+          "rootCause": "Barricade visibility was reduced after staging layout changed. — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "actionOwner": "Quinn Murphy"
         }
       ]
@@ -1391,8 +1391,8 @@
         {
           "id": "osha-safety-reporting-001",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — North Region — North Region",
-          "establishment": "Demo Construction Project — North Region — North Region",
+          "reportingPeriod": "2026-Q3 — North Region — North Region — North Region — North Region — North Region",
+          "establishment": "Demo Construction Project — North Region — North Region — North Region — North Region — North Region",
           "hoursWorked": 18400.0,
           "recordableCases": 1.0,
           "agencyStatus": "Not submitted"
@@ -1400,127 +1400,127 @@
         {
           "id": "osha-safety-reporting-002",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — Enterprise Account — Enterprise Account",
-          "establishment": "Demo Construction Project — Enterprise Account — Enterprise Account",
-          "hoursWorked": 18402.0,
-          "recordableCases": 3.0,
+          "reportingPeriod": "2026-Q3 — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
+          "establishment": "Demo Construction Project — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
+          "hoursWorked": 18405.0,
+          "recordableCases": 6.0,
           "agencyStatus": "Ready for human submission"
         },
         {
           "id": "osha-safety-reporting-003",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — Quarterly Cycle — Quarterly Cycle",
-          "establishment": "Demo Construction Project — Quarterly Cycle — Quarterly Cycle",
-          "hoursWorked": 18404.0,
-          "recordableCases": 5.0,
+          "reportingPeriod": "2026-Q3 — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
+          "establishment": "Demo Construction Project — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
+          "hoursWorked": 18410.0,
+          "recordableCases": 11.0,
           "agencyStatus": "Submitted manually"
         },
         {
           "id": "osha-safety-reporting-004",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — Priority Queue — Priority Queue",
-          "establishment": "Demo Construction Project — Priority Queue — Priority Queue",
-          "hoursWorked": 18406.0,
-          "recordableCases": 7.0,
+          "reportingPeriod": "2026-Q3 — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
+          "establishment": "Demo Construction Project — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
+          "hoursWorked": 18415.0,
+          "recordableCases": 16.0,
           "agencyStatus": "Blocked"
         },
         {
           "id": "osha-safety-reporting-005",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — Operations Review — Operations Review",
-          "establishment": "Demo Construction Project — Operations Review — Operations Review",
-          "hoursWorked": 18408.0,
-          "recordableCases": 9.0,
+          "reportingPeriod": "2026-Q3 — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
+          "establishment": "Demo Construction Project — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
+          "hoursWorked": 18420.0,
+          "recordableCases": 21.0,
           "agencyStatus": "Not submitted"
         },
         {
           "id": "osha-safety-reporting-006",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — Customer Request — Customer Request",
-          "establishment": "Demo Construction Project — Customer Request — Customer Request",
-          "hoursWorked": 18410.0,
-          "recordableCases": 11.0,
+          "reportingPeriod": "2026-Q3 — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
+          "establishment": "Demo Construction Project — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
+          "hoursWorked": 18425.0,
+          "recordableCases": 26.0,
           "agencyStatus": "Ready for human submission"
         },
         {
           "id": "osha-safety-reporting-007",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — Compliance Check — Compliance Check",
-          "establishment": "Demo Construction Project — Compliance Check — Compliance Check",
-          "hoursWorked": 18412.0,
-          "recordableCases": 13.0,
+          "reportingPeriod": "2026-Q3 — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
+          "establishment": "Demo Construction Project — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
+          "hoursWorked": 18430.0,
+          "recordableCases": 31.0,
           "agencyStatus": "Submitted manually"
         },
         {
           "id": "osha-safety-reporting-008",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — Service Window — Service Window",
-          "establishment": "Demo Construction Project — Service Window — Service Window",
-          "hoursWorked": 18414.0,
-          "recordableCases": 15.0,
+          "reportingPeriod": "2026-Q3 — Service Window — Service Window — Service Window — Service Window — Service Window",
+          "establishment": "Demo Construction Project — Service Window — Service Window — Service Window — Service Window — Service Window",
+          "hoursWorked": 18435.0,
+          "recordableCases": 36.0,
           "agencyStatus": "Blocked"
         },
         {
           "id": "osha-safety-reporting-009",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — Quality Sample — Quality Sample",
-          "establishment": "Demo Construction Project — Quality Sample — Quality Sample",
-          "hoursWorked": 18416.0,
-          "recordableCases": 17.0,
+          "reportingPeriod": "2026-Q3 — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
+          "establishment": "Demo Construction Project — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
+          "hoursWorked": 18440.0,
+          "recordableCases": 41.0,
           "agencyStatus": "Not submitted"
         },
         {
           "id": "osha-safety-reporting-010",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — Management Review — Management Review",
-          "establishment": "Demo Construction Project — Management Review — Management Review",
-          "hoursWorked": 18418.0,
-          "recordableCases": 19.0,
+          "reportingPeriod": "2026-Q3 — Management Review — Management Review — Management Review — Management Review — Management Review",
+          "establishment": "Demo Construction Project — Management Review — Management Review — Management Review — Management Review — Management Review",
+          "hoursWorked": 18445.0,
+          "recordableCases": 46.0,
           "agencyStatus": "Ready for human submission"
         },
         {
           "id": "osha-safety-reporting-011",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — Exception Follow-up — Exception Follow-up",
-          "establishment": "Demo Construction Project — Exception Follow-up — Exception Follow-up",
-          "hoursWorked": 18420.0,
-          "recordableCases": 21.0,
+          "reportingPeriod": "2026-Q3 — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
+          "establishment": "Demo Construction Project — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
+          "hoursWorked": 18450.0,
+          "recordableCases": 51.0,
           "agencyStatus": "Submitted manually"
         },
         {
           "id": "osha-safety-reporting-012",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — Evidence Package — Evidence Package",
-          "establishment": "Demo Construction Project — Evidence Package — Evidence Package",
-          "hoursWorked": 18422.0,
-          "recordableCases": 23.0,
+          "reportingPeriod": "2026-Q3 — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
+          "establishment": "Demo Construction Project — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
+          "hoursWorked": 18455.0,
+          "recordableCases": 56.0,
           "agencyStatus": "Blocked"
         },
         {
           "id": "osha-safety-reporting-013",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — Planning Cycle — Planning Cycle",
-          "establishment": "Demo Construction Project — Planning Cycle — Planning Cycle",
-          "hoursWorked": 18424.0,
-          "recordableCases": 25.0,
+          "reportingPeriod": "2026-Q3 — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
+          "establishment": "Demo Construction Project — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
+          "hoursWorked": 18460.0,
+          "recordableCases": 61.0,
           "agencyStatus": "Not submitted"
         },
         {
           "id": "osha-safety-reporting-014",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — Performance Review — Performance Review",
-          "establishment": "Demo Construction Project — Performance Review — Performance Review",
-          "hoursWorked": 18426.0,
-          "recordableCases": 27.0,
+          "reportingPeriod": "2026-Q3 — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
+          "establishment": "Demo Construction Project — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
+          "hoursWorked": 18465.0,
+          "recordableCases": 66.0,
           "agencyStatus": "Ready for human submission"
         },
         {
           "id": "osha-safety-reporting-015",
           "state": "draft",
-          "reportingPeriod": "2026-Q3 — Final Verification — Final Verification",
-          "establishment": "Demo Construction Project — Final Verification — Final Verification",
-          "hoursWorked": 18428.0,
-          "recordableCases": 29.0,
+          "reportingPeriod": "2026-Q3 — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
+          "establishment": "Demo Construction Project — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
+          "hoursWorked": 18470.0,
+          "recordableCases": 71.0,
           "agencyStatus": "Submitted manually"
         }
       ]
@@ -1625,7 +1625,7 @@
           "id": "wearable-emergency-integration-readiness-001",
           "state": "inventoried",
           "integrationType": "Wearable platform",
-          "provider": "Local emergency fixture — North Region — North Region",
+          "provider": "Local emergency fixture — North Region — North Region — North Region — North Region — North Region",
           "environment": "Local fixture",
           "credentialStatus": "Not required for fixture",
           "testResult": "Not run"
@@ -1634,7 +1634,7 @@
           "id": "wearable-emergency-integration-readiness-002",
           "state": "inventoried",
           "integrationType": "Access control",
-          "provider": "Local emergency fixture — Enterprise Account — Enterprise Account",
+          "provider": "Local emergency fixture — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account — Enterprise Account",
           "environment": "Sandbox configuration",
           "credentialStatus": "Missing",
           "testResult": "Passed without dispatch"
@@ -1643,7 +1643,7 @@
           "id": "wearable-emergency-integration-readiness-003",
           "state": "inventoried",
           "integrationType": "Weather",
-          "provider": "Local emergency fixture — Quarterly Cycle — Quarterly Cycle",
+          "provider": "Local emergency fixture — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle — Quarterly Cycle",
           "environment": "Production configuration",
           "credentialStatus": "Stored externally",
           "testResult": "Failed"
@@ -1652,7 +1652,7 @@
           "id": "wearable-emergency-integration-readiness-004",
           "state": "inventoried",
           "integrationType": "Emergency notification",
-          "provider": "Local emergency fixture — Priority Queue — Priority Queue",
+          "provider": "Local emergency fixture — Priority Queue — Priority Queue — Priority Queue — Priority Queue — Priority Queue",
           "environment": "Local fixture",
           "credentialStatus": "Not required for fixture",
           "testResult": "Blocked"
@@ -1661,7 +1661,7 @@
           "id": "wearable-emergency-integration-readiness-005",
           "state": "inventoried",
           "integrationType": "Wearable platform",
-          "provider": "Local emergency fixture — Operations Review — Operations Review",
+          "provider": "Local emergency fixture — Operations Review — Operations Review — Operations Review — Operations Review — Operations Review",
           "environment": "Sandbox configuration",
           "credentialStatus": "Missing",
           "testResult": "Not run"
@@ -1670,7 +1670,7 @@
           "id": "wearable-emergency-integration-readiness-006",
           "state": "inventoried",
           "integrationType": "Access control",
-          "provider": "Local emergency fixture — Customer Request — Customer Request",
+          "provider": "Local emergency fixture — Customer Request — Customer Request — Customer Request — Customer Request — Customer Request",
           "environment": "Production configuration",
           "credentialStatus": "Stored externally",
           "testResult": "Passed without dispatch"
@@ -1679,7 +1679,7 @@
           "id": "wearable-emergency-integration-readiness-007",
           "state": "inventoried",
           "integrationType": "Weather",
-          "provider": "Local emergency fixture — Compliance Check — Compliance Check",
+          "provider": "Local emergency fixture — Compliance Check — Compliance Check — Compliance Check — Compliance Check — Compliance Check",
           "environment": "Local fixture",
           "credentialStatus": "Not required for fixture",
           "testResult": "Failed"
@@ -1688,7 +1688,7 @@
           "id": "wearable-emergency-integration-readiness-008",
           "state": "inventoried",
           "integrationType": "Emergency notification",
-          "provider": "Local emergency fixture — Service Window — Service Window",
+          "provider": "Local emergency fixture — Service Window — Service Window — Service Window — Service Window — Service Window",
           "environment": "Sandbox configuration",
           "credentialStatus": "Missing",
           "testResult": "Blocked"
@@ -1697,7 +1697,7 @@
           "id": "wearable-emergency-integration-readiness-009",
           "state": "inventoried",
           "integrationType": "Wearable platform",
-          "provider": "Local emergency fixture — Quality Sample — Quality Sample",
+          "provider": "Local emergency fixture — Quality Sample — Quality Sample — Quality Sample — Quality Sample — Quality Sample",
           "environment": "Production configuration",
           "credentialStatus": "Stored externally",
           "testResult": "Not run"
@@ -1706,7 +1706,7 @@
           "id": "wearable-emergency-integration-readiness-010",
           "state": "inventoried",
           "integrationType": "Access control",
-          "provider": "Local emergency fixture — Management Review — Management Review",
+          "provider": "Local emergency fixture — Management Review — Management Review — Management Review — Management Review — Management Review",
           "environment": "Local fixture",
           "credentialStatus": "Not required for fixture",
           "testResult": "Passed without dispatch"
@@ -1715,7 +1715,7 @@
           "id": "wearable-emergency-integration-readiness-011",
           "state": "inventoried",
           "integrationType": "Weather",
-          "provider": "Local emergency fixture — Exception Follow-up — Exception Follow-up",
+          "provider": "Local emergency fixture — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up — Exception Follow-up",
           "environment": "Sandbox configuration",
           "credentialStatus": "Missing",
           "testResult": "Failed"
@@ -1724,7 +1724,7 @@
           "id": "wearable-emergency-integration-readiness-012",
           "state": "inventoried",
           "integrationType": "Emergency notification",
-          "provider": "Local emergency fixture — Evidence Package — Evidence Package",
+          "provider": "Local emergency fixture — Evidence Package — Evidence Package — Evidence Package — Evidence Package — Evidence Package",
           "environment": "Production configuration",
           "credentialStatus": "Stored externally",
           "testResult": "Blocked"
@@ -1733,7 +1733,7 @@
           "id": "wearable-emergency-integration-readiness-013",
           "state": "inventoried",
           "integrationType": "Wearable platform",
-          "provider": "Local emergency fixture — Planning Cycle — Planning Cycle",
+          "provider": "Local emergency fixture — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle — Planning Cycle",
           "environment": "Local fixture",
           "credentialStatus": "Not required for fixture",
           "testResult": "Not run"
@@ -1742,7 +1742,7 @@
           "id": "wearable-emergency-integration-readiness-014",
           "state": "inventoried",
           "integrationType": "Access control",
-          "provider": "Local emergency fixture — Performance Review — Performance Review",
+          "provider": "Local emergency fixture — Performance Review — Performance Review — Performance Review — Performance Review — Performance Review",
           "environment": "Sandbox configuration",
           "credentialStatus": "Missing",
           "testResult": "Passed without dispatch"
@@ -1751,7 +1751,7 @@
           "id": "wearable-emergency-integration-readiness-015",
           "state": "inventoried",
           "integrationType": "Weather",
-          "provider": "Local emergency fixture — Final Verification — Final Verification",
+          "provider": "Local emergency fixture — Final Verification — Final Verification — Final Verification — Final Verification — Final Verification",
           "environment": "Production configuration",
           "credentialStatus": "Stored externally",
           "testResult": "Failed"
