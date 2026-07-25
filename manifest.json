@@ -12,10 +12,10 @@
     "AIFactoryFloorSafetyMonitor",
     "AIPersonalSafetyLoneWorkerMonitor"
   ],
-  "featureCount": 365,
-  "candidateFeatureCount": 488,
-  "eliminatedSimilarFeatures": 123,
-  "evidenceCount": 999,
+  "featureCount": 357,
+  "candidateFeatureCount": 487,
+  "eliminatedSimilarFeatures": 130,
+  "evidenceCount": 1005,
   "aiPageCount": 0,
   "sourceAIPageCount": 0,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
@@ -26,6 +26,6 @@
     "seededTables": 0,
     "seededRows": 0
   },
-  "visibleFeatureCount": 249,
+  "visibleFeatureCount": 238,
   "featureVisibilityMode": "source-backed-fallback"
 }
